@@ -1,4 +1,4 @@
-# importa cv2 para capturar o feed de vídeo
+# importe o cv2 para capturar o feed de vídeo
 import cv2
 
 import numpy as np
