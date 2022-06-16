@@ -40,7 +40,7 @@ while True:
         # invertendo a máscara
         mask = cv2.bitwise_not(mask)
 
-        # bitwise e a operação para extrair o primeiro plano / pessoa
+        # bitwise_and - operação para extrair o primeiro plano / pessoa
         person = cv2.bitwise_and(frame, frame , mask = mask)
 
         # imagem final
